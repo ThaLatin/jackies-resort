@@ -558,8 +558,9 @@ document.querySelector('#app').innerHTML = `
     <div class="footer-bottom">
       <span>© ${new Date().getFullYear()} Jackie's Resort. All rights reserved.</span>
       <span>GANTA, NIMBA COUNTY · LIBERIA</span>
-      <span>#TrueLiberia</span>
+      <span>Feel the Comfort</span>
     </div>
+    <div class="power"><p>Power By: <a href="https://main-1-ddqm.onrender.com/">Cyrus Elvis Duo</a></p></div>
   </footer>
 
   <a class="whatsapp-float"

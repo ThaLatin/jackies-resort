@@ -1985,3 +1985,9 @@ img {
     height: 42px;
   }
 }
+
+.power{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
