@@ -340,8 +340,8 @@ document.querySelector('#app').innerHTML = `
           rel="noopener noreferrer"
         >
           <img
-            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85"
-            alt="Beautiful resort accommodation"
+            src="${import.meta.env.BASE_URL}images/resort-exterior.jpeg"
+            alt="Jackie's Resort building at sunset in Ganta, Liberia"
             loading="lazy"
           />
           <span class="gallery-caption">The Resort</span>
@@ -354,8 +354,8 @@ document.querySelector('#app').innerHTML = `
           rel="noopener noreferrer"
         >
           <img
-            src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=85"
-            alt="Resort swimming pool"
+            src="${import.meta.env.BASE_URL}images/resort-grounds.jpeg"
+            alt="Jackie's Resort grounds and outdoor sports court"
             loading="lazy"
           />
           <span class="gallery-caption">Relax & Unwind</span>
@@ -382,7 +382,7 @@ document.querySelector('#app').innerHTML = `
           rel="noopener noreferrer"
         >
           <img
-            src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1000&q=85"
+            src="${import.meta.env.BASE_URL}images/resort-event.jpeg"
             alt="Elegant event venue"
             loading="lazy"
           />
@@ -396,7 +396,7 @@ document.querySelector('#app').innerHTML = `
           rel="noopener noreferrer"
         >
           <img
-            src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=85"
+            src="${import.meta.env.BASE_URL}images/resort-art.jpeg"
             alt="Modern architectural design"
             loading="lazy"
           />
