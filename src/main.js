@@ -430,8 +430,7 @@ document.querySelector('#app').innerHTML = `
           </div>
 
           <blockquote>
-            “Add a genuine guest review here about their stay
-            and experience at the resort.”
+            “They made my getway trip to the West African unforgettable. The best experince ever.”
           </blockquote>
 
           <div class="testimonial-author">
@@ -449,8 +448,7 @@ document.querySelector('#app').innerHTML = `
           </div>
 
           <blockquote>
-            “Add a genuine review here about a wedding,
-            conference, or special event.”
+            “Worth every penny. The services are one of a kind. Thank you Jackies”
           </blockquote>
 
           <div class="testimonial-author">
@@ -468,8 +466,7 @@ document.querySelector('#app').innerHTML = `
           </div>
 
           <blockquote>
-            “Add a genuine guest review here about the food,
-            recreation, or overall hospitality.”
+            “Lots of good vibes and plenty of Liberian cusine. I enjoy my 2 weeks stay.”
           </blockquote>
 
           <div class="testimonial-author">
