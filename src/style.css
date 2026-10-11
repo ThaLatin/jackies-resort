@@ -516,7 +516,7 @@ img {
 }
 
 .image-events {
-  background-image: url(images/resort-event.jpeg);
+  background-image: url(/images/resort-event.jpeg);
 }
 
 .image-dining {
@@ -524,14 +524,14 @@ img {
 }
 
 .image-pool {
-  background-image: url(images/resort-pool.jpeg);
+  background-image: url(/images/resort-pool.jpeg);
 }
 
 .image-fitness {
-  background-image: url(images/resort-grounds.jpeg);
+  background-image: url(/images/resort-grounds.jpeg);
 }
 .image-sports {
-  background-image: url(images/resort-grounds.jpeg);
+  background-image: url(/images/resort-grounds.jpeg);
 }
 
 .image-club {
@@ -593,7 +593,7 @@ img {
   min-height: 450px;
   background:
     linear-gradient(0deg, rgba(13, 34, 24, 0.08), rgba(13, 34, 24, 0.08)),
-    url(images/resort-event.jpeg) center / cover;
+    url(/images/resort-event.jpeg) center / cover;
 }
 
 .events h2 {
@@ -1989,4 +1989,46 @@ img {
   text-align: center;
   color: white;
   font-size: 16px;
+}
+
+/* Mobile layout - FIX */
+@media (max-width: 760px) {
+  .booking-form {
+    gap: 19px;
+    padding: 18px 14px;  /* REDUCED from 22px 18px */
+  }
+
+  .booking-field input,
+  .booking-field select,
+  .booking-field textarea {
+    font-size: 16px;
+    min-width: 0;  /* ADD THIS */
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Extra small phones - ADD THIS NEW RULE */
+@media (max-width: 480px) {
+  .booking-form {
+    padding: 16px 12px;
+  }
+
+  .booking-field input,
+  .booking-field select,
+  .booking-field textarea {
+    padding: 12px 12px;  /* Reduce padding */
+  }
+
+  .back-to-top {
+    right: 16px;
+    bottom: 75px;  /* INCREASE from 85px to avoid overlap */
+    width: 40px;
+    height: 40px;
+  }
+
+  .whatsapp-float {
+    right: 16px;
+    bottom: 16px;
+  }
 }
